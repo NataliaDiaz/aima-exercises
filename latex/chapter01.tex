@@ -1,0 +1,40 @@
+\documentclass{article}
+\usepackage{fleqn}
+\usepackage{epsf}
+%\usepackage[dvips]{color}
+\usepackage{aima3e}
+
+
+\section{Introduction}
+%%%% 2.2: Good Behavior: The Concept of Rationality (4 exercises, 2 labelled)
+%%%% ========================================================================
+
+\begin{uexercise}
+Suppose that the performance measure is concerned with just the first \(T\) time steps of the environment and ignores everything thereafter.
+Show that a rational agent's action may depend not just on the state of the environment but also on the time step it has reached.
+\end{uexercise} 
+% id=2.1 section=2.2
+
+\begin{exercise}[vacuum-rationality-exercise]%
+Let us examine the rationality of various vacuum-cleaner agent functions.
+\begin{enumerate}
+\item Show that the simple vacuum-cleaner agent function described in
+\tabref{vacuum-agent-function-table} is indeed rational
+under the assumptions listed on \pgref{vacuum-rationality-page}.
+\item Describe a rational agent function for the case in which
+each movement costs one point. Does the corresponding agent program require internal state?
+\item Discuss possible agent designs for
+the cases in which clean squares can become dirty and the geography
+of the environment is unknown. Does it make sense for the agent to
+learn from its experience in these cases? If so, what should it learn?
+If not, why not?
+\end{enumerate}
+\end{exercise} 
+\end{document}
+
+
+
+
+
+
+
